@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NODE1-GROUP2-NGUYENNGOCSON</title>
+    <style>
+        body {
+          background-color: rgba(197, 197, 197, 0.945);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!------------------------------------BODY--------------------------------->
+<body>
+    <center>
+    <h1 style="color: rgb(0, 0, 0); font-size: 30px;">
+         MOTORING NODE 1
+    </h1>
+    </center>
+    
+ <!------------------------------------IP BOX--------------------------------->  
+
+    <div style="background: rgb(138, 138, 138);
+    font-size: 13px;
+    padding: 5px; 
+    max-width: 200px;
+    height: 200px;
+    margin: 1px;
+    border: thin #000 solid; padding: 5px">
+    <center>
+    <b style="font-size: 17px;">IP ADDRESS OF NODE 1</b>
+    <input style="margin-top: 14px;" type="text" id="input_9000" placeholder="          Input IP OF HAR">
+    <input style="margin-top: 14px;" type="text" id="input_8000" placeholder="          Input IP OF PPE">
+    <input style=" margin-top: 14px;" type="text" id="input_7000" placeholder="  Input IP of 'LOG OF HAR'">
+    <input style=" margin-top: 14px;"type="text" id="input_3000" placeholder="  Input IP of 'LOG OF PPE'">
+    <Button style=" margin-top: 14px;" onclick="getVal()" >Submit</Button><br>
+    </center>
+    </div>
+
+ <!------------------------------------IP BOX--------------------------------->   
+
+
+ <!------------------------------------NODE BOX---------------------------------> 
+    <div style="background: rgb(138, 138, 138);
+    margin-top: 30px;
+    font-size: 13px;
+    padding: 5px; 
+    max-width: 200px;
+    height: 600px;
+    overflow:auto; border: thin #000 solid; padding: 5px;
+   ">
+    <center>
+    <b style="font-size: 17px;">LIST OF NODES</b>
+    <div class="container" >
+        <div class="row g-4">
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 1</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 2</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 3</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 4</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 5</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 6</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 7</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 8</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">NODE 9</button>
+          </div>
+          <div style="margin-top: 20px;" class="col-4">
+            <button onclick="" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(102, 102, 102);">UPDATING ...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </center>
+    </div>
+
+<!------------------------------------NODE BOX---------------------------------> 
+
+
+
+    
+<!------------------------------------FRAME HAR---------------------------------> 
+    <section class="section_frameHAR">
+        <h1 class="text_frameHAR">CAMERA OF HAR</h1>
+        <iframe class="frame_HAR" src="" id="frame_9000" scrolling="yes" ></iframe>
+    </section>
+<!----------------------------------FRAME PPE----------------------------------->
+    <section class="section_framePPE">
+        <h1 class="text_framePPE">CAMERA OF PPE</h1>
+        <iframe class="frame_PPE" src="" id="frame_8000" scrolling="yes" ></iframe>   
+    </section>
+<!----------------------------------LOG HAR----------------------------------->
+    <section class="section_logHAR">
+        <h1 class="text_LogHAR">LOG OF HAR</h1>
+        <iframe class="frame_LogHAR" src="" id="frame_7000" scrolling="yes" ></iframe>
+    </section> 
+<!----------------------------------LOG PPE----------------------------------->
+    <section class="section_logPPE">
+        <h1 class="text_LogPPE">LOG OF PPE</h1>
+        <iframe class="frame_LogPPE" src="" id="frame_3000" scrolling="yes" ></iframe>
+    </section>  
+  
+   
+
+<!------------------------------------INFORMATION BOX---------------------------------> 
+    <section class="section_inFor"> 
+        <div class="box_infor">
+            <b style="font-size: 25px">INFORMATION</b>
+            <div style="margin-bottom: 14px;"></div>
+            <b style="font-size: 17px">TEACHER</b>
+            <div>
+                <b style="font-size: 17px">NGUYEN NGOC SON</b>
+            </div>
+            <div style="margin-bottom: 10px;"></div>
+            <b style="font-size: 17px">STUDENT</b>
+            <div>
+                <b style="font-size: 17px">NGUYEN THANH NGUYEN</b>
+            </div>
+            <div>
+                <b style="font-size: 17px">18018791</b>
+            </div>
+            <div style="margin-bottom: 10px;"></div>
+            <b style="font-size: 17px">STUDENT</b>
+            <div>
+                <b style="font-size: 17px">NGUYEN HUNG DUNG</b>
+            </div>
+            <div>
+                <b style="font-size: 17px">18018791</b>
+            </div>
+        </div>
+    </section> 
+<!------------------------------------VIDEO BOX---------------------------------> 
+    <section class="section_video">
+      <b class="location">LOCATION : IUH, HO CHI MINH CITY</b>
+      <b class="date">DATE : </b>
+      <b class="time">TIME : </b>
+
+      <b id="date" class="frame_date"></b>
+      <b id="time" class="frame_time"></b>
+      <img class="logo_fet" src="fet.jpg" alt="Girl in a jacket" width="120" height="120">
+      <img class="logo_iuh" src="Logo_IUH.png" alt="Girl in a jacket" width="120" height="120">
+    </section>
+
+    <section class="button">
+      <div class="button_reload"style="margin-top: 20px;" class="col-4">
+        <button onclick="window.location.reload();" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(133, 171, 185);">RELOAD</button>
+      </div>
+      <div class="button_exit" style="margin-top: 20px;" class="col-4">
+        <button onclick="closeWindow();" class="p-3 border" style="height: 50px;width: 100px;background-color: rgb(255, 15, 15);">EXIT</button>
+      </div>
+    </section>
+
+
+       
+    <script>
+       function closeWindow() 
+       {
+        let new_window =
+            open(location, '_self');
+        new_window.close();
+
+        return false;
+       }
+      
+        var dateDisplay = document.getElementById("date");
+        var timeDisplay = document.getElementById("time");
+        function refreshTime() 
+        {
+          var dateString = new Date().toLocaleString("en-US", {timeZone:"ASIA/Bangkok"});
+          var date = dateString.substring(0,9)
+          var time = dateString.substring(10)
+          var formattedString = dateString.replace(", ", " - ");
+          dateDisplay.innerHTML = date
+          timeDisplay.innerHTML = time
+          
+        }
+        setInterval(refreshTime, 1);
+        function getVal() {
+            // Đoạn này dùng để lấy value từ thẻ input lúc nhập
+            // Có thể  đổi ngược giá trị .value + ":x000" thành ":x000" + value niếu muốn nhập PORT và để nguyên IP
+            const val_3000 = "http://" + document.getElementById('input_3000').value + ":3000/";
+            const val_7000 = "http://" + document.getElementById('input_7000').value + ":7890/";
+            const val_8000 = "http://" + document.getElementById('input_8000').value + ":8000/";
+            const val_9000 = "http://" + document.getElementById('input_9000').value + ":8990/"; 
+
+            // Đoạn này dùng để add src vào thẻ iframe, src là value + port lấy được ở đoạn trên
+            // Mỗi dòng sẽ tương ứng là 1 thẻ iframe hiển thị với id="frame_x000"
+             document.getElementById("frame_3000").src = val_3000 ;
+             document.getElementById("frame_7000").src = val_7000 ;
+             document.getElementById("frame_8000").src = val_8000 ;
+             document.getElementById("frame_9000").src = val_9000 ;
+             
+             // Đoạn này dùng để log value nhập ở input ra trình duyệt để debug. Dùng để debug nên có thể xoá đi.
+             console.log('PORT 3000', val_3000);
+             console.log('PORT 7000', val_7000);
+             console.log('PORT 8000', val_8000);
+             console.log('PORT 9000', val_9000);
+            }
+    </script>
+        
+        <!-- iframe để hiển thị value nhập vào trên input để ý id -->
+           
+    
+
+
+
+
+    
+
+  
+            
+
+    
+    
+    
+
+
+
+  
+   
+</body>
+<!------------------------------------BODY--------------------------------->
+</html>
+
+
+<!-- 
+################################   
+##       _            _       ##
+##   .__(.)< 14VII9 >(.)__.   ##
+##    \___)          (___/    ##
+##       _            _       ##
+##   .__(.)< 14VII9 >(.)__.   ##
+##    \___)          (___/    ##
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~##
+################################
+ -->

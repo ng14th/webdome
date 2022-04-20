@@ -1,0 +1,179 @@
+.text_frameHAR
+{
+    position:absolute;
+    bottom:850px;
+    left: 500px;
+    color: rgb(0, 0, 0);
+}  
+.frame_HAR
+{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    bottom: 400px;
+    left: 350px;;
+} 
+
+.text_framePPE
+{
+    position: absolute;
+    bottom: 850px;
+    left: 1050px;
+    color: rgb(0, 0, 0);
+}
+
+.frame_PPE
+{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    bottom: 400px;
+    left: 900px;
+}
+
+.text_LogHAR
+{
+    position: absolute;
+    top: 580px;
+    left: 530px;
+    color: rgb(0, 0, 0);
+}
+
+.frame_LogHAR
+{
+    width: 500px;
+    height: 270px;
+    position: absolute;
+    top: 650px;
+    left: 350px;
+}
+.text_LogPPE
+{
+    position: absolute;
+    top: 580px;
+    left: 1080px;
+    color: rgb(0, 0, 0);
+}
+
+.frame_LogPPE
+{
+    width: 500px;
+    height: 270px;
+    position: absolute;
+    top: 650px;
+    left: 900px;
+}
+/* .text_infor
+{
+    position: absolute;
+    bottom: 850px;
+    left: 1600px;
+    color: rgb(0, 0, 0);
+} */
+.box_infor
+{
+    background-color: rgb(138, 138, 138);
+    width: 250px;
+    height:  250px;
+    position: absolute;
+    left: 1540px;
+    bottom: 200px;
+    text-align: center;
+    margin: 1px;
+    border: thin #000 solid; 
+    padding: 5px;
+    
+}
+
+.section_video
+{
+    position: absolute;
+    background-color: rgb(138, 138, 138);
+    left: 1470px;
+    bottom: 540px;
+    text-align: center;
+    margin: 1px;
+    width: 380px;
+    height: 300px;
+    border: thin #000 solid; 
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+.frame_time
+{
+    position: absolute;
+    left: 90px;
+    bottom: 220px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.frame_date
+{
+    position: absolute;
+    left: 90px;
+    bottom: 250px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.location
+{
+    position: absolute;
+    left: 15px;
+    bottom: 280px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.date
+{
+    position: absolute;
+    left: 15px;
+    bottom: 250px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.time
+{
+    position: absolute;
+    left: 15px;
+    bottom: 220px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.logo_fet
+{
+    position: absolute;
+    left: 220px;
+    bottom: 50px;
+}
+.logo_iuh
+{
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+}
+
+.button_reload
+{
+    position: absolute;
+    left: 1550px;
+    bottom: 70px;
+}
+
+.button_exit
+{
+    position: absolute;
+    left: 1690px;
+    bottom: 70px;
+}
